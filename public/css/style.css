@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:darkgray
+}
+
+h1{
+  align-items: center;
+}
+
+.main-menu{
+  font-family: 'Work Sans', sans-serif;
+  display:inline;
+  padding:3px;
+  color: #be8b2a;
+}
+
+img{
+    border-radius:100px;
+}
+
+a{
+  font-size:15px;
+  text-decoration:none;
+  color:#f05648;
+}
+  
+button:hover{
+  opacity:0.8;
+  cursor:pointer;
+}
+  
+a:hover{
+  color:#be8b2a;
+}
