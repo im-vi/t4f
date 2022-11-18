@@ -39,6 +39,6 @@ a:hover{
 }
 
 td{
-  font-size: large;
   text-align: center;
+  align-items: center;
 }
