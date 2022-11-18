@@ -37,3 +37,7 @@ button:hover{
 a:hover{
   color:#be8b2a;
 }
+
+td{
+  text-align: center;
+}
