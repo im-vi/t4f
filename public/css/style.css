@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
-    width:auto;
+    width: 1900px;
     margin-left:auto;
     margin-right:auto;
     background-color:darkgray
@@ -17,10 +17,6 @@ h1{
   display:inline;
   padding:3px;
   color: #be8b2a;
-}
-
-img{
-    border-radius:100px;
 }
 
 a{
@@ -38,7 +34,6 @@ a:hover{
   color:#be8b2a;
 }
 
-.t4f-text-head{
-  text-align: center;
-  align-content: space-around;
+td{
+  border-radius: 0px;
 }

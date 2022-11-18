@@ -9,7 +9,11 @@ app.get('/', function(req, res) {
 })
 
 app.get('/ogladaj', function(req, res) {
-    res.sendFile(__dirname + 'public/html/ogladaj.html')
+    res.sendFile(__dirname + '/ogladaj.html')
+})
+
+app.get('/turnieje', function(req, res) {
+    res.sendFile(__dirname + '/turnieje.html')
 })
 
 app.listen('4000', function() {
