@@ -1,5 +1,5 @@
 {
-  "name": "turnieje4fun-site",
+  "name": "t4f-main",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "mongoose": "^6.7.2",
+    "mongoose": "^6.8.1",
     "nodemon": "^2.0.20"
   }
 }

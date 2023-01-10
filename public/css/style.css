@@ -2,13 +2,8 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
-    margin: left 20px;
-    margin: right: 20px;
+    margin: left 100px; right: 100px;
     background-color:darkgray
-}
-
-h1{
-  align-items: center;
 }
 
 .main-menu{
@@ -35,4 +30,27 @@ a:hover{
 
 td{
   border-radius: 0px;
+}
+
+#logo{
+  float: left;
+  clear: both;
+  align-items: center;
+}
+
+#logotxt{
+  float: right;
+  clear: both;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+nav{
+  clear: both;
+  margin-top: 20px;
+}
+
+#pagecontent{
+  clear: both;
 }

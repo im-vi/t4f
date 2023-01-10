@@ -16,8 +16,8 @@ app.get('/turnieje', function(req, res) {
     res.sendFile(__dirname + '/turnieje.html')
 })
 
-app.get('/o-nas', function(req, res) {
-    res.sendFile(__dirname + '/o-nas.html')
+app.get('/discord', function(req, res) {
+    res.redirect('https://discord.com')
 })
 
 app.listen('4000', function() {
