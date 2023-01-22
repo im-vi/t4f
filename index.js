@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/ogladaj', function(req, res) {
-    res.sendFile(__dirname + '/ogladaj.html')
+    res.redirect('https://www.twitch.tv/turnieje4fun')
 })
 
 app.get('/turnieje', function(req, res) {
