@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/ogladaj', function(req, res) {
-    res.redirect('https://www.twitch.tv/turnieje4fun')
+    res.sendFile(__dirname + '/ogladaj.html')
 })
 
 app.get('/turnieje', function(req, res) {
@@ -17,11 +17,7 @@ app.get('/turnieje', function(req, res) {
 })
 
 app.get('/discord', function(req, res) {
-    res.redirect('https://discord.com/invite/7euhpCpYDu')
-})
-
-app.get('/test2023', function(req, res) {
-    res.redirect('https://play.toornament.com/pl/tournaments/6223744430341644288/')
+    res.sendFile(__dirname + '/discord.html')
 })
 
 app.listen('4000', function() {
