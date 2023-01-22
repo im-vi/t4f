@@ -17,7 +17,7 @@ app.get('/turnieje', function(req, res) {
 })
 
 app.get('/discord', function(req, res) {
-    res.redirect('https://discord.com')
+    res.redirect('https://discord.com/invite/7euhpCpYDu')
 })
 
 app.get('/test2023', function(req, res) {
