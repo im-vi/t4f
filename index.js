@@ -20,6 +20,10 @@ app.get('/discord', function(req, res) {
     res.redirect('https://discord.com')
 })
 
+app.get('/test2023', function(req, res) {
+    res.redirect('https://play.toornament.com/pl/tournaments/6223744430341644288/')
+})
+
 app.listen('4000', function() {
     console.log('Server is running!')
 })
